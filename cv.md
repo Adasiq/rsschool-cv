@@ -12,7 +12,7 @@
  - git
  - JS basics, c++/c/arduino c basics, html, css
 
- ## Code examples
+## Code examples
 ```
 template <class T>
 void solution(T **arr, int n, T k) {
@@ -53,8 +53,8 @@ void solution(T **arr, int n, T k) {
 
 
 ## Education
- - BSU | The Faculty of Radiophysics and Computer Science, 2 course
+ - BSU The Faculty of Radiophysics and Computer Science, 2 course
  - BelHard courses "Html/css/Js basics"
 
- ## Languages
+## Languages
   - i hope my english is on b1-b2 lvl
