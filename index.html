@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      <title>Resume</title>
+   </head>
+   <body>
+      <header>
+         <h1>Anton Adasik</h1>
+      </header>
+
+      <div class="null">
+
+      </div>
+
+      <main>
+         <img id="image" src="pic.png" alt="ups...">
+         <h2> Contacts </h2><br>
+            <ul>
+               <li> email: anthonyadasiq@gmail.com </li>
+               <li> telegram: @adasiq </li>
+               <li> mobile: +375447455334</li>
+            </ul>
+
+            <h2>Summary</h2>
+             I'd like to start a career of front-end developer
+
+            <h2>Skills</h2>
+             <ul>
+                <li>git</li>
+                <li>JS basics</li>
+                <li>C++/C/arduino c basics</li>
+                <li>Html</li>
+                <li>CSS</li>
+             </ul>
+
+             <h2>Code examples</h2>
+             <code>
+                <pre>
+   template < class T >
+      void solution(T **arr, int n, T k) {
+   	     for (int i = 0; i < n; i++) {
+               for (int j = 0; j < n; j++) {
+                  arr[i][j] = 0;
+               }
+         	}
+            for (int i = 0; i < n; i++) {
+            	for (int j = 0; j <= i; j++) {
+                  if (j <= n - i - 1) {
+                  arr[i][j] = (j+1)/k;
+                  }
+               }
+            }
+            int p;
+            for (int i = 0; i < n; i++) {
+         	p = 1;
+               for (int j = n - i - 1; j < n; j++) {
+               	if (j >= i) {
+                     arr[i][j]  =  (n - j) / k;
+                  }
+               }
+            }
+         	cout << "Array:" << endl;
+            for (int i = 0; i < n; i++) {
+               for (int j = 0; j < n; j++) {
+                  cout << setw(8) << arr[i][j]  ;
+            	}
+               cout << endl;
+            }
+      }
+
+               </pre>
+             </code>
+
+             <h2>Experience</h2>
+               <br>
+
+            <h2>Education</h2>
+               <ul>
+                  <li>BSU The Faculty of Radiophysics and Computer Science, 2 course</li>
+                  <li>BelHard courses "Html/css/Js basics"</li>
+               </ul>
+
+            <h2>Languages</h2>
+              i hope my english is on b1-b2 lvl
+      </main>
+
+      <div class="null">
+
+      </div>
+      <footer></footer>
+   </body>
+</html>
