@@ -1,0 +1,57 @@
+*{
+
+   margin: 0px;
+   padding: 0px;
+   font-size: 20px;
+}
+
+header{
+   font-family: 'Montserrat', sans-serif;
+   position: fixed;
+   top: 25px;
+   left: 42%;
+}
+
+.null{
+   width: 25%;
+}
+
+#image{
+   width: 100%;
+   padding: 150px 0px;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif;
+   display: grid;
+   width: 100%;
+   grid-template-columns: 25% 50% 25%;
+}
+
+main{
+   position: inherit;
+}
+
+code{
+   width: 100%;
+   font-family: 'Courier Prime', monospace;
+}
+
+ul{
+   padding-left: 30px;
+}
+
+li{
+   padding: 10px 20px;
+}
+
+h1{
+   font-size: 40px;
+   font-weight: 500px;
+}
+
+h2{
+   padding: 20px;
+   font-size: 30px;
+   font-weight: bold;
+}
